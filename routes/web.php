@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/me', 'ProfileController@show' );
 
 Route::get('/products', 'ProductController@index');
+
+Route::get('/categories', 'CategoryController@index');
